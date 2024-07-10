@@ -8,7 +8,7 @@ const MainPage = () => {
   const [category, setCategory] = useState("General");
 
   const fetchData = async () => {
-    const apiKey = "Your API Key";
+    const apiKey = "866493ce1dd54ff1b23c06668f167fa7";
     const api_url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${apiKey}`;
 
     try {
